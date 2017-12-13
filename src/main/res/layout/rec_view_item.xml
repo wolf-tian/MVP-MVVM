@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="data"
+            type="cn.compal.feeling.test.InstructionBooksBean"/>
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/img_user_guide"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            app:imgFromUrl = "@{data.moduleThreeXIconUrl}"/>
+
+        <TextView
+            android:id="@+id/tv_user_guide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/img_user_guide"
+            android:textSize="15sp"
+            tools:text="用户指南名称"
+            android:text="@{data.sysModuleName}"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:src="@drawable/ic_chevron_right_black_24dp"/>
+    </RelativeLayout>
+</layout>

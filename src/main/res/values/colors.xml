@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+
+
+    <!--三种方式登录页面颜色-->
+
+    <color name="login_third_blue">#42a3f1</color>
+    <color name="login_third_text_gray">#999999</color>
+    <color name="login_third_frame_gray_bg">#f5f5f5</color>
+    <color name="login_third_divider_gray">#eaeaea</color>
+    <color name="login_third_yzm_wait_gray">#cccccc</color>
+    <color name="login_third_yzm_time">#fd7c7e</color>
+    <color name="login_third_input_text">#333333</color>
+</resources>
